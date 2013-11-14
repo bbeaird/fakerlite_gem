@@ -1,12 +1,18 @@
-class MovieQuote
+class Movie
   def self.quotes
-    # translator = Translator.new(language)
-    # translator.hi
     funny_quotes = [
       "Quote1",
       "Quote2",
       "Quote3"]
     funny_quotes.sample
+  end
+
+  def self.actors
+    list_of_actors = [
+      "Bruce Willis",
+      "Matthew McConaughey",
+      "Sandra Bullock"]
+    list_of_actors.sample
   end
 end
 
