@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'fakerlite'
+# puts Hola.hi(ARGV[0])
+p MovieQuote.the_departed
+
